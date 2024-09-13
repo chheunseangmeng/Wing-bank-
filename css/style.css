@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Moul&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=ZCOOL+XiaoWei&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background:rgb(6, 202, 6);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    background: #ffff;
+    width: 30%;
+    height: 500px;
+    margin: 30px auto;
+    border-radius: 25px;
+    box-shadow: 0 5px 20px gray;
+    text-align: center;
+}
+img{
+    width: 200px;
+    margin-top: 20px;
+}
+input[type="text"]{
+    padding: 10px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 10px;
+    border: 1px solid gray;
+    width: 80%;
+    outline: none;
+}
+input[type="text"]:hover{
+    outline: 2px solid rgb(20, 225, 20);
+    
+}
+button{
+    padding: 13px;
+    margin-top: 20px;
+    width: 80%;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    background: #220de4;
+    color: #fff;
+    margin-bottom: 20px;
+}
+button:hover{
+    background: rgb(218, 62, 88);
+    cursor: pointer;
+    transition: 0.2s;
+    box-shadow: 0 5px 20px gray;
+}
+.language{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    color:#0044ff;
+}
+.language p:nth-child(1){
+    font-family: "Moul", serif;
+}
+.language p:nth-child(3){
+    font-family: "ZCOOL XiaoWei", sans-serif;
+    font-weight: bold;
+}
+
+
